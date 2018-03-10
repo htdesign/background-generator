@@ -4,29 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Javascript</title>
+    <title>Gradient Background</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gradient.css">
 </head>
-<body>
-    <div class="container">
-        <h1>Todo List</h1>
-        <hr>
-        <form>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Enter new task" aria-label="Enter new task" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="button">Add Task</button>
-                </div>
-            </div>
-        </form>
-
-        <ul>
-            <li><input type="checkbox" class="form-check-input">Watch movie</li>
-            <li>Learn to code</li>
-        </ul>
-    </div>
-
-    <script src="script.js"></script>
+<body class="site">
+    <h1>Background Generator</h1>
+    <input type="color" name="color1" value="#00ff00" class="color1">
+    <input type="color" name="color2" value="#ff0000" class="color2">
+    <hr>
+    <button class="btn btn-primary">Generate Random</button>
+    <hr>
+    <h2>Current CSS Background</h2>
+    <h3></h3>
+    <script src="gradient.js"></script>
 </body>
 </html>
