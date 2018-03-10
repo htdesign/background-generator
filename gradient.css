@@ -1,0 +1,9 @@
+body {
+    background: -webkit-gradient(linear, left top, right top, from(red), to(yellow));
+    background: linear-gradient(to right, red, yellow);
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
